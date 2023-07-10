@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="direction-buttons">
+    <button bindtap="moveForward">前进</button>
+    <button bindtap="moveBackward">后退</button>
+    <button bindtap="moveLeft">左转</button>
+    <button bindtap="moveRight">右转</button>
+    <button bindtap="stop" style="background-color: red; color: white;">停止</button>
+  </view>
+  <view class="rotate-buttons">
+    <button bindtap="rotateClockwise">
+      <image class="clockwise" src="/images/clockwise.png"></image>
+      <text>爱的魔力转圈圈</text>
+    </button>
+    <button bindtap="rotateCounterClockwise">
+      <image class="counter_clockwise" src="/images/counter-clockwise.png"></image>
+      <text>爱的魔力反着转圈圈</text>
+    </button>
+  </view>
+  <view class="arm-buttons">
+    <button bindtap="swingArm1" style="background-color: #ffcc00;">挥手</button>
+    <button bindtap="swingArm2" style="background-color: #00ccff;">疾速挥手</button>
+    <button bindtap="throw" style="background-color: #2800aa56;">投掷</button>
+  </view>
+</view>

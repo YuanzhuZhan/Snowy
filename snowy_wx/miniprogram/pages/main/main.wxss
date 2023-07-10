@@ -1,0 +1,9 @@
+.clockwise{
+  width:60rpx;
+  height:60rpx;
+}
+
+.counter_clockwise{
+  width:60rpx;
+  height:60rpx;
+}
